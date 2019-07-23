@@ -1,15 +1,22 @@
 {
   "name": "homework_4",
   "version": "1.0.0",
-  "description": "",
-  "main": "html-server.js",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "http": "0.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-stage-2": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.1"
+  },
   "scripts": {
+    "start": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/vasantkumbhar/homework_4/issues"
   },
-  "homepage": "https://github.com/vasantkumbhar/homework_4#readme"
+  "homepage": "https://github.com/vasantkumbhar/homework_4#readme",
+  "description": ""
 }
