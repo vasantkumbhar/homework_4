@@ -6,10 +6,10 @@
 	npm start - command will execute below API
 
 Get - 
-	http://localhost:8000/api/products
-	http://localhost:8000/api/products/1
-	http://localhost:8000/api/products/1/reviews
-	http://localhost:8000/api/products/users
+	1. http://localhost:8000/api/products 
+	2. http://localhost:8000/api/products/1 
+	3. http://localhost:8000/api/products/1/reviews 
+	4. http://localhost:8000/api/products/users 
 
 POST - 
 
